@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>eNno Bootstrap Template</title>
+  <link rel="shortcut icon" href="img/logoo.png">
+
+  <title>Músicos de Aluguel</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,23 +15,19 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/set1.css" />
   <link href="css/overwrite.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <!-- =======================================================
-    Theme Name: eNno
-    Theme URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+  
 </head>
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
+      
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -42,58 +40,89 @@
       <div class="navbar-collapse collapse">
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="services.html">Services</a></li>
-            <li role="presentation"><a href="blog.html">Blog</a></li>
-            <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-            <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+            <li role="presentation"><a href="index.php">Home</a></li>
+            <li role="presentation" class="active"><a href="services.php">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="blog.php">Cadastre-se</a></li>
+            <li role="presentation"><a href="portfolio.php">Login</a></li>
+            <li role="presentation"><a href="contact.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="map">
-    <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
-  </div>
-
-  <section id="contact-page">
-    <div class="container">
-      <div class="center">
-        <h2>Drop Your Message</h2>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="row contact-wrap">
-        <div class="col-md-8 col-md-offset-2">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-
-            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
-          </form>
+  <div class="container">
+    <div class="row">
+      <div class="service">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu<br> vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam <br>
+            </p>
+          </div>
+          <hr>
         </div>
       </div>
-      <!--/.row-->
     </div>
-    <!--/.container-->
-  </section>
-  <!--/#contact-page-->
+  </div>
+
+  <div class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+            <h4>Responsive</h4>
+            <div class="icon">
+              <i class="fa fa-heart-o fa-3x"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras</p>
+            <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
+            <h4>Multi Purpose</h4>
+            <div class="icon">
+              <i class="fa fa-desktop fa-3x"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras</p>
+            <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
+            <h4>Easy Customize</h4>
+            <div class="icon">
+              <i class="fa fa-location-arrow fa-3x"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras</p>
+            <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="2.2s">
+            <h4>Quick Support</h4>
+            <div class="icon">
+              <i class="fa fa-laptop fa-3x"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras</p>
+            <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="inner-footer">
@@ -166,12 +195,10 @@
   <script src="js/jquery.isotope.min.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
   <script type="text/javascript" src="js/fliplightbox.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
   <script src="js/functions.js"></script>
   <script type="text/javascript">
     $('.portfolio').flipLightBox()
   </script>
-  <script src="contactform/contactform.js"></script>
 
 </body>
 

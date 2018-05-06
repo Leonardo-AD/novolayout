@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/logoo.png">
+  
   <title>Músicos de Aluguel</title>
 
   <!-- Bootstrap -->
@@ -36,11 +38,11 @@
       <div class="navbar-collapse collapse">
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="services.html">Gêneros Musicais</a></li>
-            <li role="presentation"><a href="blog.html">Cadastre-se</a></li>
-            <li role="presentation"><a href="portfolio.html">Login</a></li>
-            <li role="presentation"><a href="contact.html">Quem Somos</a></li>
+            <li role="presentation" class="active"><a href="index.php">Home</a></li>
+            <li role="presentation"><a href="services.php">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="blog.php">Cadastre-se</a></li>
+            <li role="presentation"><a href="portfolio.php">Login</a></li>
+            <li role="presentation"><a href="contact.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>
