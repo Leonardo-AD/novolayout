@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-        <a class="navbar-brand" href="index.html"><span>eNno</span></a>
+        <a class="navbar-brand" href="index.html"><span>Músicos de ALuguel</span></a>
       </div>
       <div class="navbar-collapse collapse">
         <div class="menu">
@@ -62,9 +62,9 @@
       <div class="slider">
         <div class="img-responsive">
           <ul class="bxslider">
-            <li><img src="img/01.jpg" alt="" /></li>
-            <li><img src="img/01.jpg" alt="" /></li>
-            <li><img src="img/01.jpg" alt="" /></li>
+            <li><img src="img/img11.jpg" alt="" /></li>
+            <li><img src="img/artist-guitar-guitarist-33597.jpg" alt="" /></li>
+            <li><img src="img/4.jpg" alt="" /></li>
           </ul>
         </div>
       </div>
@@ -75,8 +75,7 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="text-center">
-          <h2>Multi Purpose Theme</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu<br> vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam <br> lorem sit amet scelerisque justo</p>
+          <h2>Acesse a página de acordo com o seu Perfio</h2>
         </div>
         <hr>
       </div>
@@ -88,7 +87,7 @@
       <div class="box">
         <div class="col-md-4">
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
-            <h4>Responsive</h4>
+            <h4>Músicos</h4>
             <div class="icon">
               <i class="fa fa-heart-o fa-3x"></i>
             </div>
@@ -101,7 +100,7 @@
 
         <div class="col-md-4">
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
-            <h4>Multi Purpose</h4>
+            <h4>Contratantes</h4>
             <div class="icon">
               <i class="fa fa-desktop fa-3x"></i>
             </div>
@@ -114,7 +113,7 @@
 
         <div class="col-md-4">
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
-            <h4>Easy Customize</h4>
+            <h4>Usuários</h4>
             <div class="icon">
               <i class="fa fa-location-arrow fa-3x"></i>
             </div>
@@ -134,8 +133,8 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="text-center">
-          <h2>Galleries</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu<br> vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam <br>
+          <h2>Contratações de Músicos</h2>
+          <p>Cadastre-se para realizar apresentações<br>em comércios,bares e restaurantes<br>
           </p>
         </div>
         <hr>
@@ -146,7 +145,7 @@
   <div class="content">
     <div class="grid">
       <figure class="effect-zoe">
-        <img src="img/25.jpg" alt="img25" />
+        <img src="img/show-ao-vivo-com-um-cantor.jpg" alt="img25" />
         <figcaption>
           <h2>Title <span>Name</span></h2>
           <p class="icon-links">
@@ -158,7 +157,7 @@
         </figcaption>
       </figure>
       <figure class="effect-zoe">
-        <img src="img/26.jpg" alt="img26" />
+        <img src="img/BAR.JPG" alt="img26" />
         <figcaption>
           <h2>Title <span>Name</span></h2>
           <p class="icon-links">
@@ -175,7 +174,7 @@
   <div class="content">
     <div class="grid">
       <figure class="effect-zoe">
-        <img src="img/27.jpg" alt="img27" />
+        <img src="img/3.jpg" alt="img3" />
         <figcaption>
           <h2>Title <span>Name</span></h2>
           <p class="icon-links">
@@ -187,7 +186,7 @@
         </figcaption>
       </figure>
       <figure class="effect-zoe">
-        <img src="img/30.jpg" alt="img30" />
+        <img src="img/cervejaria-nacional_bx_pi.jpg" alt="img30" />
         <figcaption>
           <h2>Title <span>Name</span></h2>
           <p class="icon-links">
@@ -206,9 +205,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 f-about">
-            <a href="index.html"><h1><span>e</span>Nno</h1></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu libero vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam consectetur adipiscing elit Cras suscipit arcu libero
-            </p>
+            <a href="index.html"><h1><span>
           </div>
           <div class="col-md-4 l-posts">
             <h3 class="widgetheading">Latest Posts</h3>
@@ -236,7 +233,7 @@
       <div class="container">
         <div class="row">
           <div class="copyright">
-            &copy; eNno Theme. All Rights Reserved
+            &copy; Músicos de aluguel Todos os Direitos Reservados
             <div class="credits">
               <!--
                 All the links in the footer should remain intact. 
@@ -244,7 +241,7 @@
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eNno
               -->
-              <a href="https://bootstrapmade.com/">Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              <a href="https://bootstrapmade.com/"> </a href="https://bootstrapmade.com/"></a>
             </div>
           </div>
         </div>
