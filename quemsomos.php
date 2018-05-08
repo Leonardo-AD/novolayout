@@ -34,35 +34,35 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-        <a class="navbar-brand" href="index.html"><span>eNno</span></a>
+        <a class="navbar-brand" href="index.html"><span>Músicos de Aluguel</span></a>
       </div>
       <div class="navbar-collapse collapse">
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation"><a href="index.php">Home</a></li>
-            <li role="presentation"><a href="services.php">Gêneros Musicais</a></li>
-            <li role="presentation"><a href="blog.php">Cadastre-se</a></li>
-            <li role="presentation"><a href="portfolio.php">Login</a></li>
-            <li role="presentation" class="active"><a href="contact.php">Quem Somos</a></li>
+            <li role="presentation"><a href="genero.php">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="cadastro.php">Cadastre-se</a></li>
+            <li role="presentation"><a href="login.php">Login</a></li>
+            <li role="presentation" class="active"><a href="quemsomos.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="map">
-    <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
-  </div>
+  <figure class="grupo">
+
+<img src="img/grupo.jpg">
 
   <section id="contact-page">
     <div class="container">
       <div class="center">
-        <h2>Drop Your Message</h2>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2>Deixe Sua Mensagem </h2>
+        <p>Sua Mensagem é Importante Para nós!</p>
       </div>
       <div class="row contact-wrap">
         <div class="col-md-8 col-md-offset-2">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="sendmessage"></div>
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-group">
@@ -82,7 +82,7 @@
               <div class="validation"></div>
             </div>
 
-            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button></div>
           </form>
         </div>
       </div>
@@ -97,26 +97,27 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 f-about">
-            <a href="index.html"><h1><span>e</span>Nno</h1></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu libero vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam consectetur adipiscing elit Cras suscipit arcu libero
+            <a href="index.html"><h1></span> Músicos de Aluguel</h1></a>
+            <p>O Músicos de Aluguel é uma plataforma web que presta serviços de contratação musical destinados a atender as necessidades de cada cliente no Brasil com qualificação, confiabilidade e recursos de qualidade com custos adequados a seu negócio.
             </p>
           </div>
           <div class="col-md-4 l-posts">
-            <h3 class="widgetheading">Latest Posts</h3>
+            <h3 class="widgetheading">Desenvolvedores</h3>
             <ul>
-              <li><a href="#">This is awesome post title</a></li>
-              <li><a href="#">Awesome features are awesome</a></li>
-              <li><a href="#">Create your own awesome website</a></li>
-              <li><a href="#">Wow, this is fourth post title</a></li>
+              <li><a href="#">Lucielly Fernanda - E-mail: luciellyx5@gmail.com</a></li>
+              <li><a href="#">Rafael Vieira - E-mail: rafaelvieiraoffiline@gmail.com</a></li>
+              <li><a href="#">Anderson dos Santos - E-mail: aslap7xx@gmail.com</a></li>
+              <li><a href="#">Leonardo Alves - E-mail: leonardo.alves779@gmail.com</a></li>
+              <li><a href="#">Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com</a></li>
             </ul>
           </div>
           <div class="col-md-4 f-contact">
-            <h3 class="widgetheading">Stay in touch</h3>
+            <h3 class="widgetheading">Nossos contatos</h3>
             <a href="#">
-              <p><i class="fa fa-envelope"></i> example@gmail.com</p>
+              <p><i class="fa fa-envelope"></i> Musicosdealuguel@gmail.com</p>
             </a>
             <p><i class="fa fa-phone"></i> +345 578 59 45 416</p>
-            <p><i class="fa fa-home"></i> Enno inc | PO Box 23456 Little Lonsdale St, New York <br> Victoria 8011 USA</p>
+            <p><i class="fa fa-home"></i> -Instituto Federal de Pernanbuco -Igarassu. <br></p>
           </div>
         </div>
       </div>
@@ -126,15 +127,9 @@
       <div class="container">
         <div class="row">
           <div class="copyright">
-            &copy; eNno Theme. All Rights Reserved
+            &copy; Músicos de Aluguel. Todos os Direitos Reservados
             <div class="credits">
-              <!--
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eNno
-              -->
-              <a href="https://bootstrapmade.com/">Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              <a href="https://bootstrapmade.com/"></<a href="https://bootstrapmade.com/"></a>
             </div>
           </div>
         </div>
@@ -144,8 +139,8 @@
           <ul class="social-network">
             <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
             <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="github"><i class="fa fa-github fa-1x"></i></a></li>
             <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
             <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
           </ul>
         </div>

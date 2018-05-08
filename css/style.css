@@ -83,12 +83,12 @@ a.navbar-brand span {
   color:#fff;
 }
 .nav-tabs > li > a:hover {
-	background-color: #36CBD4;
+	background-color: #003;
 }
 .nav-tabs > li.active > a {
 	color: #fff;
   cursor: default;
-  background-color:#36CBD4;
+  background-color:#003;
   border: 0;
   border-bottom-color: transparent;
 
@@ -96,7 +96,7 @@ a.navbar-brand span {
 .nav-tabs > li.active > a:hover {
 	color: #fff;
 	border: 0;
-	background-color: #36CBD4;
+	background-color: #003;
 	cursor: pointer;
 }
 
@@ -396,7 +396,7 @@ a.navbar-brand span {
 
 /* --- Portfolio --- */
 .portfolios {
-	margin-top:110px;
+	margin-top:100px;
 }
 
 .portfolio {
@@ -404,37 +404,61 @@ a.navbar-brand span {
 
 }
 .portfolio-2 {
-	margin-top:30px;
-	margin-bottom:50px;
+	margin-top:-30px;
+	margin-bottom:-50px;
 }
 
 .flipLightBox img {
-	margin-top:20px;
+	margin-top:5px;
 
 }
 
-/* --- Map --- */
-.map{
-	position:relative;
-	margin-top:50px;
-	margin-bottom:40px;
+/* --- quem somos --- */
+figure.grupo{
+  position: relative;
+  border: 4px solid white;
+  box-shadow: 1px 1px 1px 2px black;
+  align-content: center;
+  margin-left:0px;
+  margin-right:0px;
+
 }
 
-/* google map */
-#google-map{
-    position:relative;
-    height: 400px;
+figure.grupo img{
+  width: 100%;
+  height: 100%;
+
 }
 
+figure.grupo figcaption{
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0,0,0,.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: opacity .5s;
+}
+
+figure.grupo:hover figcaption{
+  opacity: 1;
+}
+
+figure.grupo h4{
+  font-size: 16px;
+}
 
 #contact-page{
   padding-top: 0;
-  background:#fff;
+  background:#CCF;
 }
 
 #contact-page .contact-form 
 .form-group label {
-  color: #4E4E4E;
+  color: black;
   font-size: 16px;
   font-weight: 300;
 }
@@ -491,7 +515,7 @@ textarea#message{
  ================= */
 
 footer {
-  background: #fff;
+  background: #CCF;
 }
 
 .inner-footer  ul li,a  {
@@ -508,14 +532,14 @@ footer {
 	text-align:center;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	color: #0db4be;	
+	color: #000;	
 }
 .f-about a h1 span {
-	color: #0db4be;	
+	color: #000;	
 }
 .f-about p {
   font-size: 14px;
-  color: #8a8d94;
+  color: #000;
  
 }
 .l-posts h3 {
@@ -523,22 +547,22 @@ footer {
 }
 .l-posts li a {
   font-size: 14px;
-  color: #8a8d94;
+  color: black;
   margin: 0;
   font-weight: 300;
-  border-bottom: 1px solid #f6f6f6;
+  border-bottom: 1px solid #000;
   padding-bottom: 10px;
   margin-bottom: 10px;
   display: block;
 }
 
 .l-posts li a:hover  {
-  color: #0db4be;
+  color: #black;
 }
 
 .f-contact p {
   font-size: 14px;
-  color: #8a8d94;
+  color: #000;
   margin: 0;
   
   font-weight: 300;
@@ -546,13 +570,13 @@ footer {
 }
 
 .f-contact i {
-  color: #56595f;
+  color: #000;
   font-size: 16px;
   margin-right: 10px;
 }
 
 .f-contact a:hover p{
-  color: #0db4be;
+  color: #000;
 }
 .last-div {
 	margin-top:40px;
@@ -590,14 +614,14 @@ ul.social-network li {
 	color:#73f4fc;
 }
 ul.social-network li a {	
-	color:#73f4fc;	
+	color:#CCF;	
 }
 ul.social-network li a:hover {	
-	color:#fff;	
+	color:black;	
 }
 
 a.scrollup{
-    color:#fff;
+    color:#CCF;
 	height:55px;
 	width:55px;
 	font-size:22px;
@@ -613,6 +637,6 @@ a.scrollup{
 }
 a.scrollup:hover{
 	opacity:1;
-	background-color:#36CBD4;
-	color:#fff;;	
+	background-color:black;
+	color:#CCF;	
 }
